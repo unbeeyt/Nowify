@@ -7,7 +7,7 @@
 .now-playing {
   background-image: url("https://spotifynowunbee.netlify.app/koi.gif");
   color: var(--color-text-primary);
-  display: flex;
+  display: auto;
   flex-flow: column nowrap;
   height: 100%;
   padding: var(--spacing-l);
