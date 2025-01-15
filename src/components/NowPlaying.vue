@@ -178,13 +178,6 @@ export default {
     /**
      * Set the stylings of the app based on received colours.
      */
-    setAppColours() {
-      document.documentElement.style.setProperty(
-        '--color-text-primary',
-        this.colourPalette.text
-      )
-
-    },
 
     /**
      * Handle newly updated Spotify Tracks.
@@ -298,5 +291,11 @@ export default {
   }
 }
 </script>
+
+<style>
+  body {
+  background-image: url("https://spotifynowunbee.netlify.app/koi.gif")
+}
+</style>
 
 <style src="@/styles/components/now-playing.scss" lang="scss" scoped></style>
